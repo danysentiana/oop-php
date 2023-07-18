@@ -1,6 +1,6 @@
 <?php
 
-require "data/Person.php";
+require_once "data/Person.php";
 
 $person = new Person;
 

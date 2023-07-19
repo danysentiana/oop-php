@@ -1,0 +1,26 @@
+<?php
+
+namespace Data\One {
+    class Conflict
+    {
+        function conflict()
+        {
+            echo "Ini Conflict" . PHP_EOL;
+        }
+    }
+
+    class Sample
+    {
+        function sample()
+        {
+            echo "Ini Sample" . PHP_EOL;
+        }
+    }
+}
+
+namespace Data\Two {
+    class Conflict
+    {
+        var ?string $name;
+    }
+}

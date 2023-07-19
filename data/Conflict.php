@@ -11,7 +11,7 @@ namespace Data\One {
 
     class Sample
     {
-        function sample()
+        public function sample()
         {
             echo "Ini Sample" . PHP_EOL;
         }
